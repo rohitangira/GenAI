@@ -47,6 +47,6 @@ if __name__ == "__main__":
     sample_text = "The cat sat on the mat"
     tokens, token_ids = tokenize(sample_text, vocab)
 
-    print("\n🎯 Sample Input:", sample_text)
+    print("\n Sample Input:", sample_text)
     print("🔹 Tokens:", tokens)
     print("🔹 Token IDs:", token_ids)
